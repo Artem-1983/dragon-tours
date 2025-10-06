@@ -6,14 +6,14 @@ import { IoFastFoodSharp } from "react-icons/io5";
 
 
 const Banner = () => {
-      return (
+    return (
         <>
             <div className='min-h-[550px] bg-gray-100'>
                 <div className="min-h-[550px] flex justify-center items-center backdrop-blur-xl py-12 sm:py-0 " >
                     <div className="container">
                         <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 items-center'>
                             <div data-aos='flip-up'>
-                                <img src={TravelImg} alt="travel image" className='max-w-[450px] h-[450px] w-full mx-auto object-cover' />
+                                <img src={TravelImg} alt="travel image" className='max-w-[450px] h-[450px] w-full mx-auto object-contain' />
                             </div>
 
                             <div className='flex flex-col justify-center gap-6 sm:pt-0 lg:px-16'>
